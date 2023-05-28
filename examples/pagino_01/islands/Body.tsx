@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "preact/hooks";
-// import Pagino from '../Pagino.tsx';
 //import { Pagino } from "../../../../PaginoDeno/mod.ts";
-import { Pagino } from "../../../mod.ts";
+// import { Pagino } from "../../../mod.ts";
+import { Pagino } from "https://raw.githubusercontent.com/atmelino/PaginoDeno/main/mod.ts"
 
 export default function Body() {
   const [currentPage, setcurrentPage] = useState(1);
